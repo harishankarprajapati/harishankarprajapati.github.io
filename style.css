@@ -608,6 +608,12 @@ pre code {
   .container {
     max-width: 1140px;
   }
+  .owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    height: 350px;
+}
 }
 
 .container-fluid {
@@ -12125,7 +12131,6 @@ h5,
 
 .owl-carousel.home-slider {
   position: relative;
-  height: 750px;
   z-index: 0;
 }
 
@@ -14058,4 +14063,9 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
   }
+}
+.owl-carousel .owl-stage,
+.owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: auto;
+  touch-action: auto;
 }
