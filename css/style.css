@@ -586,10 +586,21 @@ pre code {
   margin-left: auto;
 }
 
+@media only screen and (max-width: 600px) {
+
+  span.email-sec {
+    font-size: 7px;
+  }
+
+
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
   }
+
+
 }
 
 @media (min-width: 768px) {
@@ -12213,6 +12224,8 @@ h5,
   .owl-carousel.home-slider .slider-item .slider-text .one-third {
     width: 100%;
     z-index: 0;
+    height: 320px;
+    top: -429px;
   }
 
   .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
@@ -12250,6 +12263,7 @@ h5,
     right: 0;
     bottom: 0;
     z-index: 1;
+    height: 300px;
     padding: 1em;
   }
 }
