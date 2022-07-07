@@ -14079,3 +14079,6 @@ textarea.form-control {
   touch-action: auto;
 
 }
+span.email-sec {
+    word-break: break-all;
+}
