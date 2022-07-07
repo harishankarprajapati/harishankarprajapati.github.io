@@ -585,6 +585,16 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+@media only screen and (max-width: 600px) {
+
+  .owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    height: 350px;
+}
+
+}
 
 @media (min-width: 576px) {
   .container {
