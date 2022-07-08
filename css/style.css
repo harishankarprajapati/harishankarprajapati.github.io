@@ -586,10 +586,23 @@ pre code {
   margin-left: auto;
 }
 
+@media only screen and (max-width: 600px) {
+
+  .owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    height: 350px;
+}
+
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
   }
+
+
 }
 
 @media (min-width: 768px) {
@@ -12125,7 +12138,6 @@ h5,
 
 .owl-carousel.home-slider {
   position: relative;
-  height: 750px;
   z-index: 0;
 }
 
@@ -12213,6 +12225,8 @@ h5,
   .owl-carousel.home-slider .slider-item .slider-text .one-third {
     width: 100%;
     z-index: 0;
+    height: 320px;
+    top: -429px;
   }
 
   .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
@@ -12250,6 +12264,7 @@ h5,
     right: 0;
     bottom: 0;
     z-index: 1;
+    height: 300px;
     padding: 1em;
   }
 }
@@ -14058,4 +14073,11 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
   }
+}
+
+.owl-carousel .owl-stage,
+.owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: auto;
+  touch-action: auto;
+
 }
