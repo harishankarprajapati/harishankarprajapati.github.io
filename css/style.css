@@ -588,8 +588,12 @@ pre code {
 
 @media only screen and (max-width: 600px) {
 
- 
-
+  .owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    height: 350px;
+}
 
 }
 
@@ -12134,7 +12138,6 @@ h5,
 
 .owl-carousel.home-slider {
   position: relative;
-  height: 750px;
   z-index: 0;
 }
 
@@ -14071,12 +14074,10 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+
 .owl-carousel .owl-stage,
 .owl-carousel.owl-drag .owl-item {
   -ms-touch-action: auto;
   touch-action: auto;
 
-}
-span.email-sec {
-    word-break: break-all;
 }
