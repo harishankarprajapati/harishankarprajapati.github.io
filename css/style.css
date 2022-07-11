@@ -594,8 +594,8 @@ pre code {
     -webkit-transform: translate3d(0,0,0);
     height: 350px;
 }
-    span.email-sec.word-break.keep-all\;{
-    font-size: 12px;
+    span.email-sec{
+    font-size: 10px;
   }
 
 }
